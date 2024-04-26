@@ -5,8 +5,8 @@
   "main": "src/app.js",
   "scripts": {
     "dev": "tsnd --respawn --clear src/server.ts",
-    "start": "",
-    "build": ""
+    "build": "rimraf ./dist && tsc",
+    "start": "node dist/server.js"
   },
   "author": "Moises Israel Navarro Mendoza",
   "license": "ISC",
