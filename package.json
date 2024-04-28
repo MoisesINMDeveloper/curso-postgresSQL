@@ -2,11 +2,11 @@
   "name": "proyect-node-jwt-ts",
   "version": "0.0.1",
   "description": "Proyecto de node con Typescript donde usaremos como base de datos PostgreSQL y para autenticar Json Web Token",
-  "main": "src/app.js",
+  "main": "dist/app.js",
   "scripts": {
     "dev": "tsnd --respawn --clear src/server.ts",
     "build": "rimraf ./dist && tsc",
-    "start": "node dist/server.js"
+    "start": "node dist/app.js"
   },
   "author": "Moises Israel Navarro Mendoza",
   "license": "ISC",
